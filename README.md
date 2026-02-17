@@ -67,16 +67,6 @@ npm start
 - The Summary section shows total expenses and breakdown by category
 - The Spending Overview chart visualizes your expenses with colored bars
 
-## Categories
-
-- 🍔 Food
-- 🚗 Transport
-- 🛍️ Shopping
-- 📄 Bills
-- 🎬 Entertainment
-- 💊 Health
-- 📦 Other
-
 ## Technologies Used
 
 - React 18
