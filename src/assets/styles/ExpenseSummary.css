@@ -1,0 +1,81 @@
+.expense-summary-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.expense-summary-card h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 20px;
+}
+
+.grand-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #4CAF50;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.grand-total span:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.total-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.category-totals {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+}
+
+.category-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-icon {
+  font-size: 20px;
+}
+
+.category-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.category-stats {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.category-amount {
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 16px;
+}
+
+.category-percentage {
+  background: #4CAF50;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 45px;
+  text-align: center;
+}
